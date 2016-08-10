@@ -237,6 +237,7 @@ public class ArtistView extends View
         descriptionStaticLayout = getStaticLayout(description,
                 getWidth() - textLRPadding,
                 descriptionPaint);
+        getPalette();
     }
 
     private float getTextHeight(String text, int width, TextPaint textPaint)
